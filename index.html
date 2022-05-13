@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./icons/dress.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Last project</title>
+</head>
+<body class="body">
+    <header>
+        <h1> <a class="logo-link" href="index.html">VOGUE</a> </h1>
+        <button class="login-btn" onclick="aniFunction()"> Login </button>
+        <div id="login">
+            <div class="login-form">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+          
+                <button  class="sucsses-button" onclick="aniFunction()" type="submit">Login</button>
+               
+            </div>
+
+        </div>
+        <div class="topnav">
+            <a href="index.html" class="active">Vogue</a>
+            <div id="myLinks">
+              <a href="news.html">News</a>
+              <a href="handbags.html">Handbags</a>
+              <a href="women.html">Women</a>
+              <a href="men.html">Men</a>
+              <a href="children.html">Children</a>
+              <a href="beauty.html">Beauty</a>
+              <a href="adress.html">Adress</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+        <nav class="main-nav">
+            <ul class="nav-bar">
+                <li class="opendropdown">
+                    <a class="arrow" href="news.html">NEWS</a>
+                    <ul class="dropdown">
+                        <li> 
+                            <a>New trends</a>
+                        </li>
+                        <li>
+                            <a> New shows</a>
+                        </li>
+                        <li>
+                             <a> MBWF 2022</a>
+                        </li>
+                        <li>
+                            <a>Colection 2022</a>
+                        </li>
+                        <li>
+                            <a>News in jackets</a>
+                        </li>
+                       
+                    
+                    </ul>
+                </li>
+                <li class="opendropdown">
+                    <a class="arrow" href="handbags.html">HANDBAGS</a>
+                    <ul class="dropdown">
+                        <li> 
+                            <a>Gucci Beloved ♥</a>
+                        </li>
+                        <li>
+                            <a>Shop By Line </a>
+                        </li>
+                        <li>
+                             <a>Gucci Bamboo 1947</a>
+                        </li>
+                        <li>
+                            <a>Gucci Diana</a>
+                        </li>
+                        <li>
+                            <a>The Jackie 1961</a>
+                        </li>
+                        <li>
+                            <a>Gucci Horsebit 1955 </a>
+                        </li>
+                    
+                    </ul>
+                </li>
+                <li class="opendropdown">
+                    <a class="arrow" href="women.html">WOMEN</a>
+                    <ul class="dropdown">
+                        <li> 
+                            <a>Belts</a>
+                        </li>
+                        <li>
+                            <a> Eyewear </a>
+                        </li>
+                        <li>
+                            <a>Hats & Gloves </a>
+                        </li>
+                        <li>
+                            <a>Tech Accessories</a>
+                        </li>
+                        <li>
+                            <a>Silks & Scarves</a>
+                        </li>
+                        <li>
+                            <a>Socks & Tights </a>
+                        </li>
+                    
+                    </ul>
+                </li >
+                <li class="opendropdown">
+                    <a class="arrow" href="men.html">MEN</a>
+                    <ul class="dropdown">
+                        <li> 
+                            <a>Tote Bags</a>
+                        </li>
+                        <li>
+                            <a> Messenger Bags </a>
+                        </li>
+                        <li>
+                             <a>Backpacks</a>
+                        </li>
+                        <li>
+                            <a>Belt Bags</a>
+                        </li>
+                        <li>
+                            <a>Pouches</a>
+                        </li>
+                        <li>
+                            <a>Business Bags</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+                
+                </li>
+                <li class="opendropdown">
+                    <a class="arrow" href="children.html">CHILDREN</a>
+                    <ul class="dropdown">
+                        <li> 
+                            <a>Clothing (4-12 years)</a>
+                        </li>
+                        <li>
+                            <a> Shoes (27-33)</a>
+                        </li>
+                        <li>
+                             <a>Bags & Backpacks</a>
+                        </li>
+                        <li>
+                            <a> Belts</a>
+                        </li>
+                        <li>
+                            <a>Soft Accessories</a>
+                        </li>
+                        <li>
+                            <a>Special Occasion </a>
+                        </li>
+                    
+                    </ul>
+                </li>
+                <li class="opendropdown">
+                    <a class="arrow" href="beauty.html">beauty</a>
+                    <ul class="dropdown">
+                        <li> 
+                            <a>Gifts for Women</a>
+                        </li>
+                        <li>
+                            <a> Gifts for Men</a>
+                        </li>
+                        <li>
+                             <a> Mother's Day Gifts</a>
+                        </li>
+                        <li>
+                            <a>Gucci Nojum</a>
+                        </li>
+                        <li>
+                            <a>Gifts for Children</a>
+                        </li>
+                        <li>
+                            <a> Personalized Gifts</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+                <li class="opendropdown">
+                    <a  href="adress.html">Adress</a>
+                    
+                </li>
+                
+            </ul>
+        </nav>
+ 
+      
+    </header>
+    <main>
+       
+        <div class="slideshow-container">
+
+            
+            <div class="mySlides fade">
+                
+                <img class="slider-img" src="./img/mbfw.jpg" alt="mbfw">
+                
+            </div>
+        
+            <div class="mySlides fade">
+                
+                <img class="slider-img" src="./img/voguebtw.avif" alt="voguembfw">
+                
+            </div>
+        
+            <div class="mySlides fade">
+                
+                <img class="slider-img" src="./img/voguejournal.avif" alt="journal">
+                
+            </div>
+        
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <article class="article-main">
+            <div class="article-img">
+                <img src="img/statia.jpg" alt="gucci">
+            </div>
+            <div class="article-text">
+                <h3> Gucci</h3>
+                <p>
+                    It’s quite certain that when Guccio Gucci started out, he never dreamed that his small luggage company would grow to one carrying such cultural significance. But since Gucci was founded in Florence in 1921, the company has built a catalog of genuinely iconic trademarks. The interlocking GG logo; the bar-and-bit belt buckle; the bamboo-handle handbag; the omnipresent loafer—all of them have helped the brand penetrate mainstream culture like no other Italian label in history.
+
+                    The groundwork for the company’s epic expansion was laid under the leadership of Guccio’s eldest son, Aldo. A flamboyant businessman, he transformed the business into the accessories destination of choice for Europe’s emerging jet set. By the end of the 1960s, everyone from Queen Elizabeth II to Elizabeth Taylor was a patron.
+
+                    In keeping with the father-son tradition, Aldo’s son Paolo ushered in Gucci’s next great era, in the late 1960s, with the introduction of clothing. By the early ’70s, the lean silhouettes, fur-lined coats, and shiny satin lapels we think of today as Gucci hallmarks began to appear.
+
+                    The popularity of the brand was both a blessing and a curse. By the early ’80s, overzealous licensing had tarnished the label’s identity. Meanwhile, vicious infighting led to the Gucci family ultimately losing control of the company in 1993.
+                    Paolo’s legacy became the basis upon which a young designer named Tom Ford decided to build his vision when he became creative director in 1994. The now infamous Tom Ford look—what he later called “sexy, sensual, fuck-me clothes”—oozed power and prestige and reminded customers viscerally of the company’s glory days. In short order, Gucci was a global player once again.
+
+                    
+                </p>
+            </div>
+         
+        </article>
+
+
+        <article class="article-main">
+            <div class="article-img">
+                <img src="./img/dior.PNG" alt="gucci">
+            </div>
+            <div class="article-text">
+                <h3> Christian Dior</h3>
+                <p>
+                    On February 12, 1947, a new couturier named Christian Dior presented his first show to the press. In an elegant salon on the Avenue Montaigne, a model sauntered out wearing a calf-grazing skirt made with 20 yards of black wool. A cream shantung jacket (like most of Dior’s designs, it came with a name, Bar) had a tightly nipped waist that flared into a regal peplum. In a postwar world still under continued rationing, the ensemble was downright shocking. But to a legion of women used to boxy suits and drab skirts, Dior’s ultra-feminine styles were a blissful reminder of better days—and the promise of a return to luxury. “You waved your wand and suddenly I was young and hopeful again,” one ardent fan wrote Monsieur Dior. “I love you.”
+
+                    Envisioning a globe peopled with customers clad in head-to-toe Dior, the designer set about building an empire of elegance, establishing outposts in New York, London, and Caracas. Delman designer Roger Vivier created shoes as splendid as the outfits. Vibrant lipstick and perfume—Miss Dior was the first, followed by Diorama and eventually Diorissimo—completed the Dior woman’s toilette. The master merchandiser also recognized the power of personality, becoming a bit of a showman in the press. He penned his memoirs—none too prematurely, it would turn out. In 1957, Dior suffered a heart attack and died at age 52.
+                    
+                    Dior’s young assistant, Yves Saint Laurent, took over; he, too, was an instant success, making waves with his trapeze dress. However, Saint Laurent was shortly called up for military service, and in 1961, Marc Bohan presented his first collection for the label and began a nearly three-decade reign. He was followed by Gianfranco Ferré, who manned the ship for seven years. Despite a promising injection of money and energy in 1984, when French businessman Bernard Arnault bought the fashion house, it remained a sleeping beauty until 1996, when British designer John Galliano was named to the top post.
+                    
+                   
+
+                    
+                </p>
+            </div>
+         
+        </article>
+
+
+
+        <article class="article-main">
+            <div class="article-img">
+                <img src="./img/chanel.PNG" alt="gucci">
+            </div>
+            <div class="article-text">
+                <h3> Chanel</h3>
+                <p>
+                    With a snip of her ribbon-looped scissors, Gabrielle “Coco” Chanel released women from their corsets and put them in fluid jersey suits and loose chemise dresses. “Nothing is more beautiful than freedom of the body,” she said. Chanel opened up a new world for her customers, in which they could dress and play as she did—like the boys.
+
+                    Cecil Beaton observed the key to Chanel’s success in his 1954 book The Glass of Fashion: “It is the genius who creates the need, though that need must reflect the unconscious wishes of the moment if that genius is to be accepted.” To the liberated legions shedding their mantles of feminine festoonery, Chanel offered wide-leg trousers, cardigan jackets, striped Breton tops, turbans, turtlenecks, peacoats, and, of course, the LBD.
+                    
+                    Paul Poiret, an early rival, was not kind: “Poverty deluxe,” he called the youthful, pared-down look that transformed women from overblown Belle Époque belles into sleek, bobbed-hair, modern women. But recognizing her influence, Christian Dior acknowledged that “with a black sweater and 10 rows of pearls,” Chanel revolutionized the way we dress.
+                    
+                    Chanel died in 1971, and the house was managed by a list of forgettable names until Karl Lagerfeld took over in 1983. In the three decades since, he has manipulated and modernized the classic Chanel suit and many, many more of the brand’s éléments éternels, from the quilted bag, pearls, gold chains, and buttons to the camellia motif, black bows, and two-tone shoes. Although he shares with his predecessor a love of looks both lean and luxe, boyish and feminine, Lagerfeld has from the start taken Coco’s sacred codes and subverted them—mocked them, even, as he borrows from pop culture and injects a soupçon of biting wit.
+                    
+                   
+                    
+                   
+
+                    
+                </p>
+            </div>
+         
+        </article>
+
+
+
+        
+        <button class="open-button" onclick="openForm()">Chat</button>
+
+        <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        </div>
+
+        
+     
+   
+    </main>
+    <footer>
+        <div class="footer-media">
+            <h4>VOGUE</h4>
+            <p>The latest fashion news, beauty coverage, celebrity style, fashion week updates, culture reviews, and videos on Vogue.com.</p>
+            <div class="icons-footer">
+                <span>
+                    <a href="https://www.snapchat.com/" target="_blank"><i class="fa-brands fa-snapchat" rel="unfollow"></i></a>
+                    <a href="https://www.pinterest.com/devdariannianni/_saved/" target="_blank" rel="unfollow"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="https://www.instagram.com/devdariannianni/" target="_blank" rel="unfollow"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ani.devdariani.353/" target="_blank" rel="unfollow"><i class="fa-brands fa-facebook"></i></a>
+                </span>
+            </div>
+        </div>
+        <div class="footer-more1">
+            <h4>More from vogue</h4>
+            <ul class="footer-links">
+                
+                <li><a href="#">NEWSLETTER</a></li>
+                <li><a href="#">CUSTOMER CARE</a></li>
+                <li><a href="#">CONTACT US</a> </li>           
+                <li><a href="#">ABOUT VOGUE</a></li>
+                <li><a href="#"> CAREERS</a></li>
+               
+            </ul>                                                   
+           
+        </div>
+        <div class="footer-more1">
+            <h4>SEE MORE STORIES</h4>
+            <ul class="footer-links">
+                
+                <li><a href="#">FASHION</a></li>
+                <li><a href="#">BEAUTY </a></li>
+                <li><a href="#">CULTURE </a> </li>           
+                <li><a href="#">LIVING </a></li>
+                <li><a href="#">RUNWAY </a></li>
+                <li><a href="#">THE GET </a></li>
+                <li><a href="#"> MAGAZINE </a></li>
+               
+            </ul>
+        </div>
+    </footer>   
+            
+          
+            
+       
+   
+    <script src="./js/my.js"></script> 
+    
+</body>
+</html>
+ 
